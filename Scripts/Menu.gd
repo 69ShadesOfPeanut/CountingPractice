@@ -15,9 +15,9 @@ func _ready():
 		HighscoreText.set_text("Highscore: " + Highscore)
 
 func OddPressed():
-	CurrentNumGlobal.CurrentNum = "1"
+	CurrentNumGlobal.CurrentNum = "0"
 	get_tree().change_scene("res://Scenes/Counting/Counting.tscn")
 
 func EvenPressed():
-	CurrentNumGlobal.CurrentNum = "2"
+	CurrentNumGlobal.CurrentNum = "1"
 	get_tree().change_scene("res://Scenes/Counting/Counting.tscn")
